@@ -1,0 +1,8 @@
+
+services:
+
+  althttpd:
+    build:
+      context: .
+    ports:
+      - 18080:80
